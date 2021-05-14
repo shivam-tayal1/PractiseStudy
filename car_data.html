@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style1.css" />
+
+</head>
+<body onload="showcart()">
+    <header>
+        <div id="header-container">
+            <div class="nav-content">
+                <a href="customer.html">
+                    <span class="logo"> truYum </span>
+                </a>
+
+            </div>
+            <div class="nav-content">
+                <a href="customer.html" class="content"> Menu </a>
+
+            </div>
+        </div>
+
+    </header>
+    <section>
+        <div class="section1">
+            <h1> Cart Items </h1>
+            <input type="number" id="Total" style="display:none" />
+            <h1 class="no-item"> No items in the Cart. use 'Add to Cart' option in <a href="customer.html"> Menu Item List. </a> </h1>
+            <table id="item-table">
+                <tr>
+                    <th> Name           </th>
+                    <th> Free Delivery          </th>
+                    <th>  Price       </th>
+
+                    <th></th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="total-table"> Total: <span id="totalPrice"> </span></td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
